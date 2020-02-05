@@ -1,0 +1,535 @@
+/*=======================================================================================================
+
+                         PROJECT NAME        :         AGRICULTURE WEBSITE      
+                 
+                                        DEFAULT VALUES USED
+   
+                        FONT-FANILY         :   ROBOTO CONDENSED
+=======================================================================================================*/
+
+/*=======================================================================================================
+                                        TABLE OF CONTENT
+1.General section css
+2.Parallax section css
+3.General font css
+4.Button section css
+5.Home section css
+6.News section css
+7.Navbar section css
+8.Side navbar section css
+9.Footer section css
+10.Scrollbar section css
+11.Contact us section css
+12.Social section css
+13.About us section css
+14.Product section css
+=======================================================================================================*/
+
+/*=======================================================================================================
+                                        GENERAL SECTION CSS
+=======================================================================================================*/
+:root {
+    --primary-color: #4dc7a0;
+    --dark-color: #333;
+    --light-color: #f3f3f3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1.4;
+}
+
+#product-page {
+    background: var(--light-color);
+}
+
+.container {
+    max-width: 1100px;
+    padding: 0 2rem;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.category {
+    display: inline-block;
+    color: #FFF;
+    font-size: .55rem;
+    text-transform: uppercase;
+    padding: .4rem .6rem;
+    border-radius: 15px;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+
+.category-kharif {
+    background: var(--category-kharif);
+}
+
+.category-rabi {
+    background: var(--category-rabi);
+}
+
+.py-1 {
+    padding: 1.5rem 0;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.card {
+    background: #FFF;
+    padding: 1rem;
+}
+
+.category {
+    --category-kharif: #A66BBE;
+    --category-rabi: #009CFF;
+}
+
+.margin-style {
+    margin: 30px 0;
+}
+/*=======================================================================================================
+                                        PARALLAX SECTION CSS
+=======================================================================================================*/
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bg-light {
+    background: #F4F4F4;
+    color: #333;
+}
+
+.bg-dark {
+    background: #333;
+    color: #FFF;
+}
+
+.bg-primary {
+    background: var(--primary-color);
+    color: #FFF;
+}
+
+/*=======================================================================================================
+                                        GENERAL FONT CSS
+=======================================================================================================*/
+.text-heading {
+    text-align: center;
+    font-size: 30px;
+    color: #4dc7a0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.text-primary {
+    color: var(--primary-color);
+}
+
+/*=======================================================================================================
+                                        BUTTON SECTION CSS
+=======================================================================================================*/
+.btn-general {
+    border: solid 2px #4dc7a0;
+    border-radius: 5px;
+    padding: 12px 26px;
+    text-transform: uppercase;
+}
+
+.btn-product {
+    border: solid 2px #4dc7a0;
+    border-radius: 5px;
+    padding: 8px 10px;
+    text-align: center;
+}
+.btn-purple{
+    border: solid 2px #a66bbe;
+    border-radius: 5px;
+    padding: 6px 8px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: normal;
+    color: #a66bbe;
+    text-decoration: none;
+}
+.btn-purple:hover {
+    color: #fff;
+    background: #a66bbe;
+}
+
+.btn-blue{
+    border: solid 2px #009CFF;
+    border-radius: 5px;
+    padding: 6px 8px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: normal;
+    color: #009CFF;
+    text-decoration: none;
+}
+.btn-blue:hover {
+    color: #fff;
+    background: #009CFF;
+}
+
+.btn-green {
+    color: #4dc7a0;
+    text-decoration: none;
+}
+
+.btn-green:hover {
+    color: #fff;
+    background: #4dc7a0;
+}
+
+.previous-btn {
+    font-size: 22px;
+    padding: 10px 15px;
+    border-radius: 0;
+}
+
+.next-btn {
+    font-size: 22px;
+    padding: 10px 15px;
+    border-radius: 0;
+}
+
+/*=======================================================================================================
+                                        HOME SECTION CSS
+=======================================================================================================*/
+.home-section {
+    height: 100%;
+}
+
+.home-cover {
+    background-image: url(../img/farmer-about.jpg);
+    height: 100%;
+}
+
+.home-cover .home-content-box {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+.home-content-inner-box {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.home-section .text-heading {
+    font-size: 55px;
+    font-weight: bold;
+    color: #fff;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+/*=======================================================================================================
+                                        NEWS SECTION CSS
+=======================================================================================================*/
+.content-title-underline {
+    width: 30px;
+    height: 3px;
+    background: #4dc7a0;
+    margin: 0 auto 30px;
+}
+.news-content-text {
+    text-align: center;
+    font-size: 15px;
+}
+.news-cover{
+    margin: 25px 0px;
+}
+.news-content{
+    margin-bottom: 15px;
+}
+.news-content-text{
+    margin-bottom: 15px;
+}
+/*=======================================================================================================
+                                        NAVBAR SECTION CSS
+=======================================================================================================*/
+.logo{
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+.link-underline {
+    text-decoration: none;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #222;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    padding: 1rem;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#navbar ul li a {
+    color: #fff;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover {
+    background: var(--primary-color);
+    border-radius: 5px;
+    transition: background .3s;
+}
+
+#navbar ul li ul li {
+    display: none;
+}
+
+#navbar ul li:hover ul li {
+    display: block;
+}
+
+/*=======================================================================================================
+                                        SIDE NAVBAR SECTION CSS
+=======================================================================================================*/
+.side-nav-bar a {
+    position: absolute;
+    padding: 12px;
+    left: 0px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #4dc7a0;
+    border-radius: 5px 5px 5px 5px;
+}
+.kharif {
+    top: 85px;
+}
+
+.rabi {
+    top: 145px;
+}
+.login{
+    top: 205px;
+}
+/*=======================================================================================================
+                                        FOOTER SECTION CSS
+=======================================================================================================*/
+.text-center {
+    text-align: center;
+}
+
+/*=======================================================================================================
+                                        SCROLLBARS SECTION CSS
+=======================================================================================================*/
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 10px;
+}
+
+/*=======================================================================================================
+                                        CONTACT US SECTION CSS
+=======================================================================================================*/
+.contact-heading {
+    margin: 70px 0;
+}
+
+.contact-home-section {
+    height: 100%;
+}
+
+.contact-home-cover {
+    background-image: url(../img/farmer-contact.jpg);
+    height: 100%;
+}
+
+.contact-home-cover .contact-home-content-box {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+.contact-home-content-inner-box {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.contact-home-section .text-heading {
+    font-size: 55px;
+    font-weight: bold;
+    color: #fff;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+.contact-details {
+    display: flex;
+    height: 100%;
+}
+
+.contact-details > div {
+    flex: 1;
+}
+
+.contact-form-control {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-color: #4dc7a0;
+    padding-left: 7px;
+    margin: 20px 0;
+    width: 500px;
+    font-size: 15px;
+    height: 40px;
+}
+
+.contact-form-control:focus {
+    outline: none;
+}
+
+.contact-entry-style {
+    margin-bottom: 25px;
+}
+
+.contact-left {
+    color: #444;
+}
+
+/*=======================================================================================================
+                                    SOCIAL ICON CSS
+=======================================================================================================*/
+.contact-social-list {
+    padding-left: 0;
+}
+
+.contact-social-list li {
+    list-style: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 4px;
+    margin-top: 10px;
+}
+
+.social-icon i {
+    font-size: 20px;
+}
+
+.social-icon {
+    color: #222;
+}
+
+.icon-whatsapp i:hover {
+    color: #1bd741;
+}
+
+.icon-instagram i:hover {
+    color: #ca3289;
+}
+
+.icon-telegram i:hover {
+    color: #666;
+}
+
+.icons {
+    color: #4dc7a0;
+}
+
+
+/*=======================================================================================================
+                                        ABOUT US SECTION CSS
+=======================================================================================================*/
+.about-section {
+    display: flex;
+    height: 100%;
+}
+
+.about-section > div {
+    flex: 1;
+}
+
+.about-bg-diagonal {
+    float: left;
+    width: 10%;
+    height: 500px;
+    float: right;
+    background-image: url('../img/farmer-about-bg.jpg');
+    border-top: solid 500px transparent;
+    border-left: solid 200px white;
+}
+
+/*=======================================================================================================
+                                        PRODUCT SECTION CSS
+=======================================================================================================*/
+.content {
+    margin-bottom: 1.0rem;
+}
+
+.title {
+    text-decoration: none;
+    color: var(--dark-color);
+}
+.heading{
+    margin-bottom: 1rem;
+}
+
+.crop-image {
+    width: 300px;
+    height: 200px;
+}
+
+.product-cover {
+    margin: 100px 0 50px 0;
+}
+
+#product .product-cover {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+#product .product-cover .card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    grid-column: 1/span 2;
+    align-items: center;
+}
+
+#product .product-cover .card-grid:last-child {
+    grid-column: 2/span 2;
+}
