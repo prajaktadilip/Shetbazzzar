@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="74fd527a-0bc6-4d31-9815-124f71550425" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="agriculture: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="agriculture: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="assign_order: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="agriculture: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="loginuser: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="agriculture: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="order: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="agriculture: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="product: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="agriculture: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="role: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="agriculture: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="user: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1Rjk5FodJMsLDbrcNAGxCo886dS" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IOT" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\project\agriculture\vendors\fontawesome" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\project\agriculture\html" />
+      <recent name="C:\xampp\htdocs\project\agriculture" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74fd527a-0bc6-4d31-9815-124f71550425" name="Default Changelist" comment="" />
+      <created>1570187708247</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570187708247</updated>
+      <workItem from="1570187717017" duration="1637000" />
+      <workItem from="1570189542569" duration="10589000" />
+      <workItem from="1570215878864" duration="6547000" />
+      <workItem from="1570222462607" duration="341000" />
+      <workItem from="1570245241205" duration="590000" />
+      <workItem from="1570246893049" duration="3583000" />
+      <workItem from="1570265407327" duration="1233000" />
+      <workItem from="1570369842340" duration="6699000" />
+      <workItem from="1570392391936" duration="47000" />
+      <workItem from="1570392516362" duration="6505000" />
+      <workItem from="1570419085292" duration="4298000" />
+      <workItem from="1570429174402" duration="2600000" />
+      <workItem from="1570542883945" duration="7223000" />
+      <workItem from="1570737134274" duration="2704000" />
+      <workItem from="1570764425064" duration="1483000" />
+      <workItem from="1570787049609" duration="4073000" />
+      <workItem from="1570803638389" duration="1656000" />
+      <workItem from="1570817757435" duration="10239000" />
+      <workItem from="1570850480659" duration="8876000" />
+      <workItem from="1570862578661" duration="1194000" />
+      <workItem from="1570863794983" duration="2275000" />
+      <workItem from="1570913935293" duration="2297000" />
+      <workItem from="1570996675529" duration="2553000" />
+      <workItem from="1571029850224" duration="1195000" />
+      <workItem from="1571039337172" duration="3219000" />
+      <workItem from="1571080188894" duration="4281000" />
+      <workItem from="1571211106455" duration="479000" />
+      <workItem from="1572096233568" duration="157000" />
+      <workItem from="1572460372702" duration="8016000" />
+      <workItem from="1572496206495" duration="6178000" />
+      <workItem from="1572503533680" duration="8025000" />
+      <workItem from="1572512184515" duration="1830000" />
+      <workItem from="1572612759249" duration="3426000" />
+      <workItem from="1572671180723" duration="10500000" />
+      <workItem from="1572847397203" duration="2488000" />
+      <workItem from="1572851469477" duration="416000" />
+      <workItem from="1572861609891" duration="974000" />
+      <workItem from="1572957725632" duration="594000" />
+      <workItem from="1572975220756" duration="12149000" />
+      <workItem from="1573010882610" duration="4102000" />
+      <workItem from="1573015741194" duration="1816000" />
+      <workItem from="1573028033742" duration="31000" />
+      <workItem from="1573049068787" duration="1065000" />
+      <workItem from="1573097551607" duration="416000" />
+      <workItem from="1574101296186" duration="418000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
